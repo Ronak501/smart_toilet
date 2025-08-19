@@ -16,7 +16,7 @@ export default function LoginPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    if (email === "priya@citycorp.in" && password === "password123") {
+    if (email === "ronak@citycorp.in" && password === "123") {
       router.push("/dashboard")
     } else {
       alert("Invalid credentials. Please use the demo credentials.")
@@ -28,8 +28,7 @@ export default function LoginPage() {
       {/* Login Panel - Left Side */}
       <div className="w-80 bg-white p-8 flex flex-col justify-center shadow-lg">
         <div className="mb-8">
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">Smart Toilet</h1>
-          <h2 className="text-2xl font-bold text-gray-900">Cleanliness System</h2>
+          <h1 className="text-2xl font-bold text-gray-900 mb-2">Swachh Sense</h1>
         </div>
 
         <form onSubmit={handleLogin} className="space-y-6">
@@ -70,8 +69,8 @@ export default function LoginPage() {
 
         <div className="mt-8 p-4 bg-gray-50 rounded-md">
           <p className="text-sm text-gray-600 mb-1">Demo:</p>
-          <p className="text-sm font-mono text-gray-800">priya@citycorp.in</p>
-          <p className="text-sm font-mono text-gray-800">password123</p>
+          <p className="text-sm font-mono text-gray-800">ronak@citycorp.in</p>
+          <p className="text-sm font-mono text-gray-800">123</p>
         </div>
       </div>
 

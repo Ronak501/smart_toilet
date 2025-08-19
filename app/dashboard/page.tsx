@@ -146,12 +146,12 @@ export default function DashboardPage() {
               <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
                 <div className="w-6 h-6 bg-white rounded-sm"></div>
               </div>
-              <h1 className="text-xl font-bold text-gray-900">SMART TOILET CLEANLINESS SYSTEM</h1>
+              <h1 className="text-xl font-bold text-gray-900">Swachh Sense</h1>
             </div>
 
             {/* User Menu */}
             <div className="flex items-center space-x-4">
-              <span className="text-sm font-medium text-gray-700">Priya</span>
+              <span className="text-sm font-medium text-gray-700">Ronak</span>
               <div className="w-px h-4 bg-gray-300"></div>
               <Button variant="ghost" size="sm" onClick={handleLogout} className="text-gray-600 hover:text-gray-900">
                 <LogOut className="w-4 h-4 mr-1" />
